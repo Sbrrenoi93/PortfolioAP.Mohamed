@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="portfolio">
+    <!-- Menu latéral -->
+    <aside class="sidebar">
+      <h2>Mon Portfolio</h2>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">Profil</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#portfolio">Projets</a></li>
+          <li><a href="#contact">Contactez-moi</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Contenu principal -->
+    <main class="content">
+        <section id="accueil" class="section">
+            <div class="hero">
+              <div class="hero-text">
+                <h1>Bienvenue sur mon Portfolio</h1>
+                <p>Découvrez mon parcours, mes compétences et mes projets.</p>
+                <a href="#apropos" class="cta-button">En savoir plus</a>
+              </div>
+            </div>
+          </section>
+
+      <section id="apropos" class="section">
+        <h1>À propos de moi</h1>
+        
+        <p>Je suis ARSLANE Mohamed Younès, étudiant en BTS SIO (Service Informatique aux Organisations), option SLAM (Programmation, Développement). Passionné et spécialisé dans la création de solutions web modernes et interactives, mon objectif est d'offrir des expériences utilisateur fluides et innovantes.</p>
+      </section>
+
+      <section id="competences" class="section">
+        <h1>Mes Compétences</h1>
+        <p>Voici un aperçu de mes domaines de compétence/languages que je maîtrise:</p>
+        <div class="skills-grid">
+          <div class="skill-box">HTML</div>
+          <div class="skill-box">CSS</div>
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">SQL</div>
+          <div class="skill-box">Programmation Python</div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h1>Mes Projets</h1>
+        <p>Voici quelques-uns de mes projets récents :</p>
+        <p>- Projet 1 : Application de gestion des tâches</p>
+        <p>- Projet 2 : Site web pour une entreprise locale</p>
+        <p>- Projet 3 : Portfolio interactif</p>
+      </section>
+
+      <section id="contact" class="section">
+        <h1>Contact</h1>
+        <p>Envoyez-moi un message directement ici :</p>
+        <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
